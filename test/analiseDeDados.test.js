@@ -34,7 +34,7 @@ describe('Testes da classe AnaliseDeDados', () => {
     expect(analise.calcularMediana()).toBe(3);
   });
 
-  test('Deve calcular a moda corretamente', () => {
+  test('Deve calcular/a a moda corretamente', () => {
     analise.adicionarDados([2, 2, 3]);
     expect(analise.calcularModa()).toEqual([2]);
   });
