@@ -30,7 +30,7 @@ describe('Testes da classe AnaliseDeDados', () => {
     expect(analise.calcularMedia()).toBe(3);
   });
 
-  test('Deve calcular a mediana corretamente', () => {
+  test('Deve calcular a median corretamente', () => {
     expect(analise.calcularMediana()).toBe(3);
   });
 
